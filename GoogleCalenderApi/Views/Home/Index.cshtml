@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <button onclick="location.href = '@Url.Action("OauthRedirect","Home")'"> Singin</button>
+    <button onclick="location.href = '@Url.Action("RefreshToken","OAuth")'"> Refresh Token</button>
+    <button onclick="location.href = '@Url.Action("RevokeToken","OAuth")'"> Revoke token</button>
+
+    <form asp-action="CreateEvent"  asp-controller="calenderEvent" method="post">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Summary</label>
+            <input type="text" name="Summary" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Description</label>
+            <input type="text" name="Description" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <label for="exampleInputPassword1" class="form-label">Start</label>
+            <input type="datetime" name="Start.DateTime"  class="form-control" id="exampleCheck1">
+        </div>
+        <div class="mb-3 form-check">
+            <label for="exampleInputPassword1" class="form-label">End</label>
+            <input type="datetime" name="End.DateTime"  class="form-control" id="exampleCheck1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

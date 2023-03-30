@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCalenderApi", "GoogleCalenderApi\GoogleCalenderApi.csproj", "{03722468-5A01-4753-9BA8-75C951390692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38E870CB-A457-4664-8B8B-54ECA4C25DEA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03722468-5A01-4753-9BA8-75C951390692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03722468-5A01-4753-9BA8-75C951390692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03722468-5A01-4753-9BA8-75C951390692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03722468-5A01-4753-9BA8-75C951390692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {851B8A35-476B-45DC-B584-3C681509ADBC}
+	EndGlobalSection
+EndGlobal
